@@ -4,7 +4,7 @@ Author - Data-Divaa
 Desc - given two unsorted arrays sorted them into one array with the help of merge sort algorithm.
 '''
 
-
+#function defintion
 def mergeTwoUnsortedArray(l1,l2):
     i,j = 0,0
     lst = []
@@ -27,10 +27,12 @@ def mergeTwoUnsortedArray(l1,l2):
 
     return lst
 
+
+#fetching input
 l1 = list(map(int,input("enter the first unsorted array (space seperated):").split()))
 
 l2 = list(map(int,input("enter the second unsorted array (space seperated):").split()))
 
 
-
+#function call
 print("merged sorted array :",mergeTwoUnsortedArray(l1,l2))
