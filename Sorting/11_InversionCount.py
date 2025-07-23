@@ -30,7 +30,7 @@ def Count(lst,l,m,r):
             i += 1
         else:
             lst[k] = l2[j]
-            res += (len(l1) -1)
+            res += (len(l1) -i)
             j += 1
         k += 1
 
